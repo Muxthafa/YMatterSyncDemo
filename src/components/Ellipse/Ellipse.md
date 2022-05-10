@@ -1,3 +1,3 @@
 # Ellipse
 
-Ellipse documentation published to YMatterSync repo for testing
+Ellipse documentation published to YMatterSync repo
