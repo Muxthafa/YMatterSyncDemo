@@ -1,3 +1,3 @@
 # Ellipse
 
-Ellipse documentation for testing repo name change
+Testing for the flow when repo name is changed
