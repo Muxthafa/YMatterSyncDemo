@@ -1,3 +1,3 @@
 # Ellipse
 
-Ellipse doc for testing repo name change
+Ellipse documentation for testing repo name change
