@@ -1,3 +1,3 @@
 # Ellipse
 
-Ellipse documentation published to YMatterSync repo for testing
+Ellipse doc for testing repo name change
