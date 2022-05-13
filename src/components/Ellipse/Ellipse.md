@@ -1,3 +1,3 @@
 # Ellipse
 
-Ellipse doc
+Repo name change issue fixed
