@@ -1,3 +1,3 @@
 # Ellipse
 
-Testing for the flow when repo name is changed
+Ellipse component testing
