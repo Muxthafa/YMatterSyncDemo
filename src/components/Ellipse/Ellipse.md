@@ -1,3 +1,3 @@
 # Ellipse
 
-Ellipse documentation
+Ellipse doc
