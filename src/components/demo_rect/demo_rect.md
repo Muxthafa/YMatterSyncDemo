@@ -1,3 +1,3 @@
 # demo_rect
 
-Rectangle documentation 2
+Rectangle documentation 3
