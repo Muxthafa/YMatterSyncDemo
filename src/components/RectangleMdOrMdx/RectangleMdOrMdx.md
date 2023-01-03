@@ -1,3 +1,3 @@
 # RectangleMdOrMdx
 
-Detail documentation goes here
+Detail documentation goes here 2
