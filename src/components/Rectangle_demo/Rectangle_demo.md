@@ -4,7 +4,7 @@ slug: /kibana-dev-docs/contributing/styleguide
 title: Style Guide
 description: JavaScript/TypeScript styleguide.
 date: 2021-05-06
-tags: ['kibana', 'onboarding', 'dev', 'styleguide', 'typescript', 'javascript']
+tags: ['kibana2', 'onboarding', 'dev', 'styleguide', 'typescript', 'javascript']
 ---
 
 This guide applies to all development within the Kibana project and is
@@ -209,7 +209,7 @@ generic or `unknown` (in cases the type is really not known).
 You should always prefer using those mechanisms over using `any`, since they are stricter typed and
 less likely to introduce bugs in the future due to insufficient types.
 
-If you’re not having `any` in your plugin or are starting a new plugin, you should enable the
+If youâre not having `any` in your plugin or are starting a new plugin, you should enable the
 [`@typescript-eslint/no-explicit-any`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md)
 linting rule for your plugin via the [`.eslintrc.js`](https://github.com/elastic/kibana/blob/main/.eslintrc.js) config.
 
@@ -220,15 +220,15 @@ TypeScript that something is not `null`, even though by its type it could be. Us
 assertions is most often a side effect of you actually checked that the variable is not `null`
 but TypeScript doesn't correctly carry on that information till the usage of the variable.
 
-In most cases it’s possible to replace the non-null assertion by structuring your code/checks slightly different
+In most cases itâs possible to replace the non-null assertion by structuring your code/checks slightly different
 or using [user defined type guards](https://www.typescriptlang.org/docs/handbook/advanced-types.html#user-defined-type-guards)
 to properly tell TypeScript what type a variable has.
 
 Using non-null assertion increases the risk for future bugs. In case the condition under which we assumed that the
-variable can’t be `null` has changed (potentially even due to changes in completely different files), the non-null
+variable canât be `null` has changed (potentially even due to changes in completely different files), the non-null
 assertion would now wrongly disable proper type checking for us.
 
-If you’re not using non-null assertions in your plugin or are starting a new plugin, consider enabling the
+If youâre not using non-null assertions in your plugin or are starting a new plugin, consider enabling the
 [`@typescript-eslint/no-non-null-assertion`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-assertion.md)
 linting rule for you plugin in the [`.eslintrc.js`](https://github.com/elastic/kibana/blob/main/.eslintrc.js) config.
 
@@ -698,6 +698,6 @@ Name action functions in the form of a strong verb and passed properties in the 
 ## Attribution
 
 Parts of the JavaScript style guide were initially forked from the
-[node style guide](https://github.com/felixge/node-style-guide) created by [Felix Geisendörfer](http://felixge.de/) which is
+[node style guide](https://github.com/felixge/node-style-guide) created by [Felix GeisendÃ¶rfer](http://felixge.de/) which is
 licensed under the [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 license.
