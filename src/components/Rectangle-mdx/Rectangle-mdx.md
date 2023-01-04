@@ -1,3 +1,3 @@
 # Rectangle-mdx
 
-Detail documentation goes here 23
+Detail documentation goes here 26
